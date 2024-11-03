@@ -1,0 +1,174 @@
+So!!
+Hi there I'm Shub here....
+hope you guys are fit and fine if not then you guys need to be... 
+
+Idk from where to start.. bcz what i planed to do is half way ahead but all i lack in the reqirements of
+1. KANGAROO.SO
+2. KANGAROO.DILL 
+files  working may be....
+
+====================================================================================================
+
+~WHY MAY BE I THINK THAT~
+because i had done endless coding into this and even after tried to modify it with advanced AI.
+what they said ?? 
+1. https://www.perplexity.ai/
+2. https://chatgpt.com/
+
+-------------------------------------------------------------------------------------------------------------------------------------
+they said your code is completely done and here is the :
+                                                                      ~  WORKING OF THE CODE  ~
+
+script is designed to use the Kangaroo algorithm to find private keys corresponding to a given set of public keys
+within a specified range. The algorithm takes advantage of parallel processing by using multiple CPU cores, and
+ it allows for randomized or sequential key generation within the range....
+
+--------------------------------------------------------------------------------------------------------------------------------------
+TADDAA !! THE MY IDEA AND CODE WORKED.....
+ MORE ELABORATION THEN ILL TELL YOU GUYS WHERE IS FAULTS COMMING.....
+
+comm : : :- you need to know by the way!
+python kangshub.py -p G:\heart\gpus\pub.txt -keyspace 1f:ffffffffff -ncore 9 -r -t 1
+
+1. Argument Parsing:
+The script uses argparse to parse command-line arguments, allowing the user to specify various options:
+-p: Path to a file with public keys (hex format).
+-keyspace: Range (in hexadecimal) to search from min:max.
+-ncore: Number of CPU cores to use (default: all but one).
+-n: Range for each search iteration (default: 72057594037927935).
+-r: Flag to enable random key generation within the range.
+-t: Time interval (in seconds) to reset the search range. 
+
+2.Keyspace Setup
+keyspace defines the minimum and maximum hexadecimal range for the search 
+(e.g., 1:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140).
+a and b are the start and end points of this range, converted to integers.
+The script initializes increment, which determines the range size in each search loop. 
+flag_random is set if random key generation is enabled, and ncore is set to use a specified number of CPU cores
+
+3.The Kangaroo algorithm relies on platform-specific DLLs (dynamic-link libraries):
+Kangaroo_CPU.dll for Windows
+Kangaroo_CPU.so for Linux
+The DLL function run_cpu_kangaroo is set up with specific argument types to
+ ensure the Kangaroo algorithm runs correctly with the ctypes library.
+
+4. Kangaroo Algorithm Execution
+The algorithm begins by loading public keys from the specified file.
+For each public key, the script:
+Starts the search within the given range (range_st to range_en).
+Resets the search range after a specified time interval (args.t), if provided.
+Displays progress statistics, including keys per second, elapsed time, and RAM usage.
+run_cpu_kangaroo() scans for a matching private key within the range:
+If a private key is found, the script outputs the key and saves it to KEYFOUNDKEYFOUND.txt.
+5. Random or Sequential Range Generation
+random_or_sequential() determines the next starting point in the search range. It either:
+Chooses a random value within a and b if -r is specified.
+Increments the range sequentially if random mode is not enabled.
+6. Output
+If a private key corresponding to the public key is found, it is displayed and written to a file.
+The script ends by summarizing the results..........
+
+AND THE THING I LIKE THE MOST ::: (~ABOUT MY SCRIPT~)
+
+
+Public Key Search:
+For each public key in pubkeys.txt, the algorithm attempts to find a corresponding private key within the specified range.
+run_cpu_kangaroo uses multiple CPU cores to speed up the search.
+Periodically resets the range if no result is found within the given interval (-t).
+
+Key Found:
+If a private key match is found, it is displayed and saved, stopping the search for that specific public key.
+
+Completion:
+After processing all public keys, the program displays a summary of found keys and exits.
+This script allows for efficient keyspace searches using parallel processing and range-resetting intervals, 
+making it suitable for large-scale cryptographic searches with the Kangaroo algorithm.
+=================================================================================================================
+
+So why it shows errors for that you GUYS have to take a look at  these site for knowledge how kangaroo works!!!!!.....
+1. https://en.m.wikipedia.org/wiki/Pollard%27s_kangaroo_algorithm 
+2. https://github.com/demining/Kangaroo-by-JeanLucPons.git
+3. https://github.com/iceland2k14/kangaroo/blob/main/kangaroo.py
+4. https://www.embeddedrelated.com/showarticle/1093.php
+5. https://github.com/demining/Kangaroo-by-JeanLucPons.git
+6. https://en.m.wikipedia.org/wiki/Pollard%27s_kangaroo_algorithm
+
+==================================================================================================================
+
+
+SOME OF THE PICTURES YOU GUYS MIGHT LIKE TO SEE: WILL BE LINKED TO THIS DOCUMENTATION WITH FIGNO.s
+
+1. Fig No.1 what is kang??
+2. Fig No.2 how it hopes around the desiredd values by calculating keys.. ??
+3. Fig No.3 if the error occurs to the range and if it miss the values ??
+4. Fig No. 4 - 5 INDEX calculations and the table shows examples of it !!!....
+
+==================================================================================================================
+
+
+Then whats wrong with my idea and what took so long foor this idea tobe handled ??...
+
+I'm not the only one who thinked about it there are PLEANTY OF MEEE...
+But at first start it sucked my MIND too.....
+
+======================================================WHATS THE FAULTS IN IT??===================================
+
+                                                                                   Real speed is something else  both speed are true but::
+1. one if of kangaroo algorithm and other one is to check how many keys it made correctly!!
+ 
+[+] [501.71 TeraKeys/s][Kang 9216 ][Count 2^30.08/2^29.06][Elapsed 00:41][Dead 5][RAM 90.0MB/44.7MB]  ++ [1784.02 Keys/s][found 0] 
+
+2. Kangaroo got working like:
+ 1 2 3 4 .... so the speed is real like  bruteforcing....
+0xff ~ all possible combinations  of Pubkey .......
+0xfffff ~ all possible combinations of Pubkey ........
+0xffff keys with all randomness of keys without hashing if key match the generated publickeys it will check for the pattern with given key 
+INTO THE TABLE GENERATED OR PROVIDED BY FILE.SO/.DILL if match then bingo!!
+
+3. Additionally when i added coincure  for the improvement the findings are 2x and its able to find more than 2 keys per range run
+
+4.  THE HIGHEND CPUS WILL HAVE A BETTER CHANCES BCZ OF THE 
+[  from secrets import SystemRandom   ]
+
+5. It doesn't load the range properly sometimes thats why im saying without .so resources my script can't never be done USE 1F HEX TYPES TO DEFINE CURVE 
+
+6. -r for complete randomness -s for sequence but haven't find anything with it bcz of algorithm structure -S sequence is shit for this ALGORITHM WOKING 
+
+7. I did research and found that I'm making nothing this thing is illogical.....
+
+Y
+E
+S
+
+ Yess this shit does not have logics into it and my script is a crap for cruve bcz..... 
+7(a). It will load keys then generate so we don't have to look fot single key and if any of
+ [any of keys match it will do bingo!!]
+7(b). Its load keys and doo this but sometimes even after running for hours it found nothing not even the keys which supposed to be there 
+
+IN END IF YOU ARE A GREAT CODER MAKE IT MORE SUPERR AND ACCURATE WHICH IS NOT POSSIBLE BCZ IT'S  
+BUT USING IT IS NOT SUGESTED BY ME.....
+
+DONT BLAME ME FOR WASTING YOUR TIME IF YOU GUY'S THINK I DID....
+BUT CHANCES ARE 1000%  YES ALSO 1000% NO USING THIS.....
+
+HOPE IT WILL HELP
+FOR ANY QUESTIONS TEXT US AT
+ @------------------------------------------------------------------------@
+CLOUDHUNTERS :: https://t.me/cloud_hunter_sa
+ @------------------------------------------------------------------------------------@
+KEYFOUND ::  https://t.me/privatekeydirectorygroup
+ @------------------------------------------------------------------------------------@
+ALSO FOR TRADING WITH BOTS :: https://t.me/+ggaun3gLB900MGY0
+ @------------------------------------------------------------------------------------@
+GITHUB LINK FOR MORRE :: https://github.com/Shubsaini08
+ @------------------------------------------------------------------------@
+FOR DONATIONS : 
+
+CONTACT :: 
+US THROUGH DRIECT MESSAGES OR BY MAILING US ::   08SHUBHAM2003@GMAIL.COM
+ @------------------------------------------------------------------------@
+OR DIRECT MESSAGE ON TELE : @Shub_saini08 
+ @------------------------------------------------------------------------@
+THANK YOU FOR READING THIS DOCUMENTATIONHAVE A WONDERFULL DAY STAY BLESSED HOPE YOU WILL HIT SOME(MONEY) SOON......
+BYE !!
+
