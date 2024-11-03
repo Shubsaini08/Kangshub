@@ -5,6 +5,10 @@ A kangaroo algorithm work is similar but highy advanced by me so check it out
 
 > python kangaroo.py -p {LOCATION OF FILE CONTAINING PUBLICKEYS} -keyspace {STARTING RANGE:ENDING RANGE} -R/r {FOR RANDOM MODE OF KEYS GENERATION} -ncore {FOR NUMBER OF CPU THREADS} -t/T (Interval time in seconds for range reset)
 
+![photo_2024-11-03_23-56-30](https://github.com/user-attachments/assets/c78695c4-ea9d-4f33-a6f3-534a69582ece)
+
+
+
 PROCESS IS SAME BUT THE WORK HAS CHANGES USING KANGAROO ALGORITHM
 
 @FOR WINDOWS AND LINUX VERSION NOT FOR MOBILES......
