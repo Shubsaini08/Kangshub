@@ -1,6 +1,10 @@
 # Kangshub
 A kangaroo algorithm work is similar but highy advanced by me so check it out 
 
+#Usage:
+
+> python kangaroo.py -p {LOCATION OF FILE CONTAINING PUBLICKEYS} -keyspace {STARTING RANGE:ENDING RANGE} -R/r {FOR RANDOM MODE OF KEYS GENERATION} -ncore {FOR NUMBER OF CPU THREADS} -t/T (Interval time in seconds for range reset)
+
 PROCESS IS SAME BUT THE WORK HAS CHANGES USING KANGAROO ALGORITHM
 
 @FOR WINDOWS AND LINUX VERSION NOT FOR MOBILES......
