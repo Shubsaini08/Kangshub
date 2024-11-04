@@ -12,8 +12,8 @@ So if you think that your code shows [ found xoxo ]
 then you are looking for outputs you might going go crazzy for moneyyy yess im too but.....
 > 1. the speed it shows TERAKEYS/SEC is true and accurate...    but the speed which it shows after  is also true and the findings define the curve bcz of COINCURVE AND SECRETS IMPROVEMENT the found numbers means that Found ( NO.) means that it has found (NUMBER OF ) keys which had similar patterns to rest of the keys It will hoping on each and every completey similar pubkey It means that if key is 40 digit long 39 digit matched yeahhh ik this shit is to check curve process and also bcz of the pattrens a lot of pattrens from publickeysfile its overloading the table so if youre using more than 100 million stings chances of hitiing will be 10X as compared to BSGS bcz of the RAM usag
 
+![photo_2024-11-04_13-49-30](https://github.com/user-attachments/assets/8829e096-b679-4326-ac4b-4d5051b1f2fd)
 
-![photo_2024-11-04_13-48-50](https://github.com/user-attachments/assets/31fbde18-be06-49d7-afee-2ee34130967a)
 
 # PROCESS IS SAME BUT THE WORK HAS CHANGES USING KANGAROO ALGORITHM..
 
