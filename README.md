@@ -8,8 +8,8 @@ so now you guys have
 "KANGSHUB.PY"
 AND "KANGSHUB2.PY" 
 
-use "KANGSHUB.PY" instead of 2.py.... its trash 🗑 
-still updating hoping for kangshubV2.py the correct and  higly updated code will be soon here...
+use "KANGSHUB.PY" instead of "KANGSHUB2.PY".... its trash 🗑 
+still updating hoping for version2.py the correct and  higly updated code will be soon here...
 
 
 Thanks to :
