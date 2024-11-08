@@ -1,6 +1,17 @@
 # Kangshub
 A kangaroo algorithm work is similar but highy advanced by me so check it out 
 
+# what had happened?
+
+So sorry but i accidentally uploaded the wrong version and after that i shared the correct version in my group but people were stuggling bcz of downloading.....
+so now you guys have 
+"KANGSHUB.PY"
+AND "KANGSHUB2.PY" 
+
+use "KANGSHUB.PY" instead of 2.py.... its trash 🗑 
+still updating hoping for kangshubV2.py the correct and  higly updated code will be soon here...
+
+
 Thanks to :
 
 https://github.com/iceland2k14/kangaroo.git
