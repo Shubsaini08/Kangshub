@@ -1,4 +1,4 @@
-# Kangshub
+⁶# Kangshub
 A kangaroo algorithm work is similar but highy advanced by me so check it out 
 
 # what had happened?
@@ -50,32 +50,28 @@ then you are looking for outputs you might going go crazzy for moneyyy yess im t
 >
 > Its load keys and doo this but sometimes even after running for hours it found nothing not even the keys which supposed to be there 
 
+# DOOR'S are always open for DONATIONS 
+ thank you !.....
+ 
 # HOPE IT WILL HELP
-[FOR ANY QUESTIONS TEXT US AT
- ------------------------------------------------------------------------@
- 
-> CLOUDHUNTERS :: https://t.me/cloud_hunter_sa
- @------------------------------------------------------------------------------------@
- 
+[FOR ANY QUESTIONS TEXT US AT]
+
+> CLOUDHUNTERS :: https://t.me/code_Crusaders0
+> 
 > KEYFOUND ::  https://t.me/privatekeydirectorygroup
- @------------------------------------------------------------------------------------@
-
+> 
 > ALSO FOR TRADING WITH BOTS :: https://t.me/+ggaun3gLB900MGY0
- @------------------------------------------------------------------------------------@
-
+> 
 > GITHUB LINK FOR MORRE :: https://github.com/Shubsaini08
- @------------------------------------------------------------------------@]
-
+> 
 FOR DONATIONS : 
 
 # CONTACT :: 
-> US THROUGH DRIECT MESSAGES OR BY MAILING US ::   08SHUBHAM2003@GMAIL.COM
- @------------------------------------------------------------------------@
-
-> OR DIRECT MESSAGE ON TELE : @Shub_saini08 
- @------------------------------------------------------------------------@
-
-THANK YOU FOR READING THIS DOCUMENTATION
+> US THROUGH DRIECT MESSAGES OR BY MAILING US ::   keyfoundhunt4ever@gmail.com
+> 
+> OR DIRECT MESSAGE ON TELE : @Shub_saini08
+>
+> THANK YOU FOR READING THIS DOCUMENTATION
 
 HAVE A WONDERFULL DAY STAY BLESSED HOPE YOU WILL HIT SOME(MONEY) SOON......
 BYE !!
